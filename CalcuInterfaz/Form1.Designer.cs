@@ -282,7 +282,7 @@
             // 
             // Num8
             // 
-            Num8.BackColor = Color.FromArgb(255, 192, 192);
+            Num8.BackColor = Color.FromArgb(20, 20, 20);
             Num8.FlatAppearance.BorderSize = 0;
             Num8.FlatStyle = FlatStyle.Flat;
             Num8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
