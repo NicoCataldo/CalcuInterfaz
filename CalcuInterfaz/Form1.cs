@@ -60,16 +60,12 @@ namespace CalcuInterfaz
 
         private static string leerInputValido()
         {
-
-            // Input no vacío
+            // Input vacío es 0
             if (string.IsNullOrEmpty(entrada))
             {
 
                 return "0";
             }
-
-            // Cambiar comas por puntos
-            //entrada = entrada.Replace(",", ".");
 
             // Recorremos la entrada en busca de validaciones
             int openParentheses = 0;
@@ -137,7 +133,10 @@ namespace CalcuInterfaz
 
             // Separamos los números del entrada
             string[] numbers = entrada.Split(new char[] { '+', '-', '*', '/', '(', ')' });
-            //REVISAR QUE NO EMPIECE CON */, ELIMINAR + INICIAL
+            
+            // TODO: REVISAR QUE LOS NUMEROS NO EMPIECEN CON '*', '/' -> "Syntax error"
+            // TODO: ELIMINAR + INICIAL. Ej: +4.5 -> 4.5
+            // TODO: CONSIDERAR NUMEROS NEGATIVOS COMO VÁLIDOS
 
             // Más de un punto decimal. Ej: 2,41,3
             foreach (string number in numbers)
@@ -158,14 +157,12 @@ namespace CalcuInterfaz
                     if (number.EndsWith(","))
                     {
                         return "Syntax error";
-                        //REVISAR. Eliminar el punto.
+                        // TODO: ELIMINAR PUNTO FINAL DE NÚMEROS DECIMALES. Ej.: 4. -> 4
                     }
                 }
             }
 
             //TODO CORRECTO
-
-            //return "Correcto";
             return Calculate();
 
         }
@@ -304,5 +301,5 @@ namespace CalcuInterfaz
                     throw new ArgumentException("Invalid operator: " + op);
             }
         }
-    }//Test cambios
+    }
 }
