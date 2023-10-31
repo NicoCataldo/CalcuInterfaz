@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "tfE3kPACiYHWYsC5O1MqBflShHm6m8YZLCvJw/PCgX0YlmUDi3TSnWnPoid8TgLo2AhC2yQv0KBjdEII1CUjSw==",
   "success": true,
   "projectFilePath": "D:\\Documentos\\Tec. Promgramacion\\TERCER SEMESTRE\\Laboratorio III\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
+=======
+  "dgSpecHash": "I16+hn641QJ1hAdm2M79mBXU1sXzML27W47B32BE8dlNIEODaCAYPZTm4dV/+bQUes6oce9dkvuzfnVjXXUC1w==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

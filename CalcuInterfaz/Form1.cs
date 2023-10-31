@@ -1,5 +1,6 @@
 using Microsoft.VisualBasic.Logging;
 using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace CalcuInterfaz
 {
@@ -59,7 +60,11 @@ namespace CalcuInterfaz
         }
 
         private static string leerInputValido()
+
         {
+
+            entrada = Regex.Replace(entrada, @"(\d+)\.$", "$1");
+
             // Input vacío es 0
             if (string.IsNullOrEmpty(entrada))
             {
@@ -133,10 +138,21 @@ namespace CalcuInterfaz
 
             // Separamos los números del entrada
             string[] numbers = entrada.Split(new char[] { '+', '-', '*', '/', '(', ')' });
-            
+
             // TODO: REVISAR QUE LOS NUMEROS NO EMPIECEN CON '*', '/' -> "Syntax error"
+            if (entrada.StartsWith("*") || entrada.StartsWith("/"))
+            {
+                return "Syntax error";
+            }
+
             // TODO: ELIMINAR + INICIAL. Ej: +4.5 -> 4.5
+            if (entrada.StartsWith("+"))
+            {
+                entrada = entrada.Substring(1);
+            }
+
             // TODO: CONSIDERAR NUMEROS NEGATIVOS COMO VÁLIDOS
+            
 
             // Más de un punto decimal. Ej: 2,41,3
             foreach (string number in numbers)

@@ -8,19 +8,40 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\brupa\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "D:\\Documentos\\Tec. Promgramacion\\TERCER SEMESTRE\\Laboratorio III\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
       "projectName": "CalcuInterfaz",
       "projectPath": "D:\\Documentos\\Tec. Promgramacion\\TERCER SEMESTRE\\Laboratorio III\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
       "packagesPath": "C:\\Users\\brupa\\.nuget\\packages\\",
       "outputPath": "D:\\Documentos\\Tec. Promgramacion\\TERCER SEMESTRE\\Laboratorio III\\CalcuInterfaz\\CalcuInterfaz\\obj\\",
+=======
+      "projectUniqueName": "D:\\GitHub\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
+      "projectName": "CalcuInterfaz",
+      "projectPath": "D:\\GitHub\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\CalcuInterfaz\\CalcuInterfaz\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< Updated upstream
         "C:\\Users\\brupa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
