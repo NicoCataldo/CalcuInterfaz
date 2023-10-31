@@ -31,6 +31,7 @@
         private void InitializeComponent()
         {
             Button Men_Button;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             Num0 = new Button();
             ComaBut = new Button();
             CButton = new Button();
@@ -281,7 +282,7 @@
             // 
             // Num8
             // 
-            Num8.BackColor = Color.FromArgb(20, 20, 20);
+            Num8.BackColor = Color.FromArgb(255, 192, 192);
             Num8.FlatAppearance.BorderSize = 0;
             Num8.FlatStyle = FlatStyle.Flat;
             Num8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
@@ -438,6 +439,7 @@
             Controls.Add(ComaBut);
             Controls.Add(Num0);
             ForeColor = Color.Black;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;

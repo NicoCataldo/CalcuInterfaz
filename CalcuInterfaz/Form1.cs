@@ -4,8 +4,8 @@ namespace CalcuInterfaz
 {
     public partial class Form1 : Form
     {
-       
-        static string entrada="";
+
+        static string entrada = "";
         public Form1()
         {
             InitializeComponent();
@@ -49,8 +49,8 @@ namespace CalcuInterfaz
         {
             entrada = Ingreso.Text;
             OutPut.Text = leerInputValido();
-            Ingreso.Text =entrada;
-            
+            Ingreso.Text = entrada;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -59,7 +59,7 @@ namespace CalcuInterfaz
         }
 
 
-        
+
         private static string leerInputValido()
         {
 
@@ -78,7 +78,7 @@ namespace CalcuInterfaz
             {
 
                 // Conteo de paréntesis
-                
+
                 if (entrada[i] == '(')
                 {
                     openParentheses++;
@@ -118,7 +118,7 @@ namespace CalcuInterfaz
             // Paridad de paréntesis
             if (openParentheses < closeParentheses) //Ej: 3+(2*4))
             {
-              
+
                 return "Syntax error";
             }
             else
@@ -158,7 +158,7 @@ namespace CalcuInterfaz
                     // Revisar que los números no terminen en ','
                     if (number.EndsWith(","))
                     {
-                         return "Syntax error";                        
+                        return "Syntax error";
                         //REVISAR. Eliminar el punto.
                     }
                 }
@@ -166,7 +166,7 @@ namespace CalcuInterfaz
 
             //TODO CORRECTO
             return "Correcto";
-   
+
         }
 
     }
