@@ -304,5 +304,5 @@ namespace CalcuInterfaz
                     throw new ArgumentException("Invalid operator: " + op);
             }
         }
-    }
+    }//Test cambios
 }
