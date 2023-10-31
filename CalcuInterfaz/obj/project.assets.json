@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\guido\\.nuget\\packages\\": {}
+    "C:\\Users\\brupa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programación\\Laboratorio 3\\Calculadora Nico\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
+      "projectUniqueName": "D:\\Documentos\\Tec. Promgramacion\\TERCER SEMESTRE\\Laboratorio III\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
       "projectName": "CalcuInterfaz",
-      "projectPath": "D:\\Programación\\Laboratorio 3\\Calculadora Nico\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
-      "packagesPath": "C:\\Users\\guido\\.nuget\\packages\\",
-      "outputPath": "D:\\Programación\\Laboratorio 3\\Calculadora Nico\\CalcuInterfaz\\CalcuInterfaz\\obj\\",
+      "projectPath": "D:\\Documentos\\Tec. Promgramacion\\TERCER SEMESTRE\\Laboratorio III\\CalcuInterfaz\\CalcuInterfaz\\CalcuInterfaz.csproj",
+      "packagesPath": "C:\\Users\\brupa\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\Tec. Promgramacion\\TERCER SEMESTRE\\Laboratorio III\\CalcuInterfaz\\CalcuInterfaz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guido\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brupa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
