@@ -172,21 +172,20 @@ namespace CalcuInterfaz
 
         static string Calculate()
         {
-            // Remove spaces and replace commas with dots
+            // Eliminamos espacios y reemplazamos comas con puntos
             string input = entrada.Replace(" ", "").Replace(",", ".");
 
-            // Create a stack to hold the numbers and operators
+            // Creamos una pila para contener los números y operadores
             Stack<decimal> numbers = new Stack<decimal>();
             Stack<char> operators = new Stack<char>();
 
-            // Loop through the input string
-            // Loop through the input string
+            // Recorremos la cadena de entrada
             for (int i = 0; i < input.Length; i++)
             {
                 char c = input[i];
                 if (char.IsDigit(c) || c == '.')
                 {
-                    // Parse the number and push it onto the stack
+                    // Analizamos el número y los introducimos en la pila
                     int j = i;
                     while (j < input.Length && (char.IsDigit(input[j]) || input[j] == '.'))
                     {
@@ -206,12 +205,12 @@ namespace CalcuInterfaz
                 }
                 else if (c == '(')
                 {
-                    // Push the opening parenthesis onto the operator stack
+                    // Empuja el paréntesis de apertura en la pila del operador
                     operators.Push(c);
                 }
                 else if (c == ')')
                 {
-                    // Evaluate the expression inside the parentheses
+                    // Evaluamos la expresión dentro del paréntesis
                     while (operators.Peek() != '(')
                     {
                         decimal b = numbers.Pop();
@@ -220,11 +219,11 @@ namespace CalcuInterfaz
                         decimal result = Evaluate(a, b, op);
                         numbers.Push(result);
                     }
-                    operators.Pop(); // Pop the opening parenthesis
+                    operators.Pop(); // Pop en el paréntesis de apertura
                 }
                 else if ("+-*/".Contains(c))
                 {
-                    // Evaluate higher-precedence operators on the stack
+                    // Evaluamos operadores de mayor prioridad en la pila
                     while (operators.Count > 0 && Precedence(operators.Peek()) >= Precedence(c))
                     {
                         decimal b = numbers.Pop();
@@ -233,12 +232,12 @@ namespace CalcuInterfaz
                         decimal result = Evaluate(a, b, op);
                         numbers.Push(result);
                     }
-                    // Push the current operator onto the stack
+                    // Empuja el operador actual sobre la pila
                     operators.Push(c);
                 }
             }
 
-            // Evaluate any remaining operators on the stack
+            // Evaluamos los operadores restantes en la pila
             while (operators.Count > 0)
             {
                 decimal b = numbers.Pop();
@@ -248,7 +247,7 @@ namespace CalcuInterfaz
                 numbers.Push(result);
             }
 
-            // Check for division by zero
+            // Comprobamos la división por cero
             if (numbers.Count == 1 && operators.Count == 0)
             {
                 decimal result = numbers.Pop();
@@ -258,7 +257,7 @@ namespace CalcuInterfaz
                 }
                 else
                 {
-                    // Return the result as a string with 4 decimal places
+                    // Devolvemos el resultado como una cadena con 4 decimales
                     return result.ToString("N4");
                 }
             }
