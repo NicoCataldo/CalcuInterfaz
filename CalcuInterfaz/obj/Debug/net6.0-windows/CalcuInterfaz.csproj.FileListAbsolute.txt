@@ -15,3 +15,20 @@ C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\ne
 C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.genruntimeconfig.cache
 C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\ref\CalcuInterfaz.dll
 C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.Properties.Resources.resources
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.exe
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.deps.json
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.runtimeconfig.json
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.dll
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.pdb
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.Form1.resources
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.Properties.Resources.resources
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.csproj.GenerateResource.cache
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.AssemblyInfoInputs.cache
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.AssemblyInfo.cs
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.csproj.CoreCompileInputs.cache
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.dll
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\refint\CalcuInterfaz.dll
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.pdb
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.genruntimeconfig.cache
+D:\Programación\Laboratorio 3\Calculadora Nico\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\ref\CalcuInterfaz.dll
