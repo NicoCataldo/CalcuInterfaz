@@ -1,0 +1,17 @@
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.exe
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.deps.json
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.runtimeconfig.json
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.dll
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\bin\Debug\net6.0-windows\CalcuInterfaz.pdb
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.Form1.resources
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.csproj.GenerateResource.cache
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.AssemblyInfoInputs.cache
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.AssemblyInfo.cs
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.csproj.CoreCompileInputs.cache
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.dll
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\refint\CalcuInterfaz.dll
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.pdb
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.genruntimeconfig.cache
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\ref\CalcuInterfaz.dll
+C:\Users\nicoc\OneDrive\Documentos\Lab3\CalcuInterfaz\CalcuInterfaz\obj\Debug\net6.0-windows\CalcuInterfaz.Properties.Resources.resources
