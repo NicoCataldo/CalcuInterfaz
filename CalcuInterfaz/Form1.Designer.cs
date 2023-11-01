@@ -31,6 +31,7 @@
         private void InitializeComponent()
         {
             Button Men_Button;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             Num0 = new Button();
             ComaBut = new Button();
             CButton = new Button();
@@ -371,7 +372,7 @@
             Ingreso.Multiline = true;
             Ingreso.Name = "Ingreso";
             Ingreso.ReadOnly = true;
-            Ingreso.Size = new Size(243, 56);
+            Ingreso.Size = new Size(236, 56);
             Ingreso.TabIndex = 20;
             Ingreso.TextAlign = HorizontalAlignment.Right;
             Ingreso.TextChanged += Resultado_TextChanged;
@@ -404,7 +405,7 @@
             OutPut.Multiline = true;
             OutPut.Name = "OutPut";
             OutPut.ReadOnly = true;
-            OutPut.Size = new Size(243, 46);
+            OutPut.Size = new Size(236, 46);
             OutPut.TabIndex = 23;
             OutPut.TextAlign = HorizontalAlignment.Right;
             // 
@@ -412,9 +413,10 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.FromArgb(25, 25, 25);
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(243, 376);
+            ClientSize = new Size(236, 376);
             Controls.Add(OutPut);
             Controls.Add(button1);
             Controls.Add(Ingreso);
@@ -438,6 +440,7 @@
             Controls.Add(ComaBut);
             Controls.Add(Num0);
             ForeColor = Color.Black;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
