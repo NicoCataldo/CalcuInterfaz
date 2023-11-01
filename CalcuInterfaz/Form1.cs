@@ -152,7 +152,8 @@ namespace CalcuInterfaz
             }
 
             // TODO: CONSIDERAR NUMEROS NEGATIVOS COMO VÁLIDOS
-            
+
+
 
             // Más de un punto decimal. Ej: 2,41,3
             foreach (string number in numbers)
@@ -179,18 +180,18 @@ namespace CalcuInterfaz
             }
 
             //TODO CORRECTO
-            return Calculate();
+            return Calcular();
 
         }
 
-        static string Calculate()
+        static string Calcular()
         {
             // Eliminamos espacios y reemplazamos comas con puntos
             string input = entrada.Replace(" ", "").Replace(",", ".");
 
             // Creamos una pila para contener los números y operadores
-            Stack<decimal> numbers = new Stack<decimal>();
-            Stack<char> operators = new Stack<char>();
+            Stack<decimal> numeros = new Stack<decimal>();
+            Stack<char> operaciones = new Stack<char>();
 
             // Recorremos la cadena de entrada
             for (int i = 0; i < input.Length; i++)
@@ -204,11 +205,11 @@ namespace CalcuInterfaz
                     {
                         j++;
                     }
-                    string numberString = input.Substring(i, j - i);
-                    decimal number;
-                    if (decimal.TryParse(numberString, NumberStyles.Float, CultureInfo.InvariantCulture, out number))
+                    string numString = input.Substring(i, j - i);
+                    decimal numero;
+                    if (decimal.TryParse(numString, NumberStyles.Float, CultureInfo.InvariantCulture, out numero))
                     {
-                        numbers.Push(number);
+                        numeros.Push(numero);
                     }
                     else
                     {
@@ -219,59 +220,59 @@ namespace CalcuInterfaz
                 else if (c == '(')
                 {
                     // Empuja el paréntesis de apertura en la pila del operador
-                    operators.Push(c);
+                    operaciones.Push(c);
                 }
                 else if (c == ')')
                 {
                     // Evaluamos la expresión dentro del paréntesis
-                    while (operators.Peek() != '(')
+                    while (operaciones.Peek() != '(')
                     {
-                        decimal b = numbers.Pop();
-                        decimal a = numbers.Pop();
-                        char op = operators.Pop();
-                        decimal result = Evaluate(a, b, op);
-                        numbers.Push(result);
+                        decimal b = numeros.Pop();
+                        decimal a = numeros.Pop();
+                        char op = operaciones.Pop();
+                        decimal resultado = Evaluate(a, b, op);
+                        numeros.Push(resultado);
                     }
-                    operators.Pop(); // Pop en el paréntesis de apertura
+                    operaciones.Pop(); // Pop en el paréntesis de apertura
                 }
                 else if ("+-*/".Contains(c))
                 {
                     // Evaluamos operadores de mayor prioridad en la pila
-                    while (operators.Count > 0 && Precedence(operators.Peek()) >= Precedence(c))
+                    while (operaciones.Count > 0 && Precedence(operaciones.Peek()) >= Precedence(c))
                     {
-                        decimal b = numbers.Pop();
-                        decimal a = numbers.Pop();
-                        char op = operators.Pop();
-                        decimal result = Evaluate(a, b, op);
-                        numbers.Push(result);
+                        decimal b = numeros.Pop();
+                        decimal a = numeros.Pop();
+                        char op = operaciones.Pop();
+                        decimal resultado = Evaluate(a, b, op);
+                        numeros.Push(resultado);
                     }
                     // Empuja el operador actual sobre la pila
-                    operators.Push(c);
+                    operaciones.Push(c);
                 }
             }
 
             // Evaluamos los operadores restantes en la pila
-            while (operators.Count > 0)
+            while (operaciones.Count > 0)
             {
-                decimal b = numbers.Pop();
-                decimal a = numbers.Pop();
-                char op = operators.Pop();
-                decimal result = Evaluate(a, b, op);
-                numbers.Push(result);
+                decimal b = numeros.Pop();
+                decimal a = numeros.Pop();
+                char op = operaciones.Pop();
+                decimal resultado = Evaluate(a, b, op);
+                numeros.Push(resultado);
             }
 
             // Comprobamos la división por cero
-            if (numbers.Count == 1 && operators.Count == 0)
+            if (numeros.Count == 1 && operaciones.Count == 0)
             {
-                decimal result = numbers.Pop();
-                if (result == 0)
+                decimal resultado = numeros.Pop();
+                if (resultado == 0)
                 {
                     return "Math error";
                 }
                 else
                 {
                     // Devolvemos el resultado como una cadena con 4 decimales
-                    return result.ToString("N4");
+                    return resultado.ToString("N4");
                 }
             }
             else

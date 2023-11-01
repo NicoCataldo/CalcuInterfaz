@@ -63,7 +63,7 @@
             Men_Button.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Men_Button.ForeColor = Color.White;
             Men_Button.Location = new Point(175, 216);
-            Men_Button.Margin = new Padding(1, 1, 1, 1);
+            Men_Button.Margin = new Padding(1);
             Men_Button.Name = "Men_Button";
             Men_Button.Size = new Size(54, 48);
             Men_Button.TabIndex = 11;
@@ -79,7 +79,7 @@
             Num0.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num0.ForeColor = Color.White;
             Num0.Location = new Point(63, 316);
-            Num0.Margin = new Padding(1, 1, 1, 1);
+            Num0.Margin = new Padding(1);
             Num0.Name = "Num0";
             Num0.Size = new Size(54, 48);
             Num0.TabIndex = 0;
@@ -95,7 +95,7 @@
             ComaBut.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             ComaBut.ForeColor = Color.White;
             ComaBut.Location = new Point(7, 316);
-            ComaBut.Margin = new Padding(1, 1, 1, 1);
+            ComaBut.Margin = new Padding(1);
             ComaBut.Name = "ComaBut";
             ComaBut.Size = new Size(54, 48);
             ComaBut.TabIndex = 1;
@@ -111,7 +111,7 @@
             CButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             CButton.ForeColor = Color.White;
             CButton.Location = new Point(119, 316);
-            CButton.Margin = new Padding(1, 1, 1, 1);
+            CButton.Margin = new Padding(1);
             CButton.Name = "CButton";
             CButton.Size = new Size(54, 48);
             CButton.TabIndex = 2;
@@ -127,7 +127,7 @@
             Igual_Button.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Igual_Button.ForeColor = Color.White;
             Igual_Button.Location = new Point(175, 316);
-            Igual_Button.Margin = new Padding(1, 1, 1, 1);
+            Igual_Button.Margin = new Padding(1);
             Igual_Button.Name = "Igual_Button";
             Igual_Button.Size = new Size(54, 48);
             Igual_Button.TabIndex = 3;
@@ -143,7 +143,7 @@
             Mas_Button.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Mas_Button.ForeColor = Color.White;
             Mas_Button.Location = new Point(175, 266);
-            Mas_Button.Margin = new Padding(1, 1, 1, 1);
+            Mas_Button.Margin = new Padding(1);
             Mas_Button.Name = "Mas_Button";
             Mas_Button.Size = new Size(54, 48);
             Mas_Button.TabIndex = 7;
@@ -159,7 +159,7 @@
             Num3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num3.ForeColor = Color.White;
             Num3.Location = new Point(119, 266);
-            Num3.Margin = new Padding(1, 1, 1, 1);
+            Num3.Margin = new Padding(1);
             Num3.Name = "Num3";
             Num3.Size = new Size(54, 48);
             Num3.TabIndex = 6;
@@ -175,7 +175,7 @@
             Num2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num2.ForeColor = Color.White;
             Num2.Location = new Point(63, 266);
-            Num2.Margin = new Padding(1, 1, 1, 1);
+            Num2.Margin = new Padding(1);
             Num2.Name = "Num2";
             Num2.Size = new Size(54, 48);
             Num2.TabIndex = 5;
@@ -191,7 +191,7 @@
             Num1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num1.ForeColor = Color.White;
             Num1.Location = new Point(7, 266);
-            Num1.Margin = new Padding(1, 1, 1, 1);
+            Num1.Margin = new Padding(1);
             Num1.Name = "Num1";
             Num1.Size = new Size(54, 48);
             Num1.TabIndex = 4;
@@ -207,7 +207,7 @@
             Num6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num6.ForeColor = Color.White;
             Num6.Location = new Point(119, 216);
-            Num6.Margin = new Padding(1, 1, 1, 1);
+            Num6.Margin = new Padding(1);
             Num6.Name = "Num6";
             Num6.Size = new Size(54, 48);
             Num6.TabIndex = 10;
@@ -223,7 +223,7 @@
             Num5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num5.ForeColor = Color.White;
             Num5.Location = new Point(63, 216);
-            Num5.Margin = new Padding(1, 1, 1, 1);
+            Num5.Margin = new Padding(1);
             Num5.Name = "Num5";
             Num5.Size = new Size(54, 48);
             Num5.TabIndex = 9;
@@ -239,7 +239,7 @@
             Num4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num4.ForeColor = Color.White;
             Num4.Location = new Point(7, 216);
-            Num4.Margin = new Padding(1, 1, 1, 1);
+            Num4.Margin = new Padding(1);
             Num4.Name = "Num4";
             Num4.Size = new Size(54, 48);
             Num4.TabIndex = 8;
@@ -255,7 +255,7 @@
             X_Button.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             X_Button.ForeColor = Color.White;
             X_Button.Location = new Point(175, 166);
-            X_Button.Margin = new Padding(1, 1, 1, 1);
+            X_Button.Margin = new Padding(1);
             X_Button.Name = "X_Button";
             X_Button.Size = new Size(54, 48);
             X_Button.TabIndex = 15;
@@ -271,7 +271,7 @@
             Num9.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num9.ForeColor = Color.White;
             Num9.Location = new Point(119, 166);
-            Num9.Margin = new Padding(1, 1, 1, 1);
+            Num9.Margin = new Padding(1);
             Num9.Name = "Num9";
             Num9.Size = new Size(54, 48);
             Num9.TabIndex = 14;
@@ -287,7 +287,7 @@
             Num8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num8.ForeColor = Color.White;
             Num8.Location = new Point(63, 166);
-            Num8.Margin = new Padding(1, 1, 1, 1);
+            Num8.Margin = new Padding(1);
             Num8.Name = "Num8";
             Num8.Size = new Size(54, 48);
             Num8.TabIndex = 13;
@@ -303,7 +303,7 @@
             Num7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Num7.ForeColor = Color.White;
             Num7.Location = new Point(7, 166);
-            Num7.Margin = new Padding(1, 1, 1, 1);
+            Num7.Margin = new Padding(1);
             Num7.Name = "Num7";
             Num7.Size = new Size(54, 48);
             Num7.TabIndex = 12;
@@ -319,7 +319,7 @@
             Div_Button.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Div_Button.ForeColor = Color.White;
             Div_Button.Location = new Point(175, 116);
-            Div_Button.Margin = new Padding(1, 1, 1, 1);
+            Div_Button.Margin = new Padding(1);
             Div_Button.Name = "Div_Button";
             Div_Button.Size = new Size(54, 48);
             Div_Button.TabIndex = 19;
@@ -335,7 +335,7 @@
             Par_Button.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Par_Button.ForeColor = Color.White;
             Par_Button.Location = new Point(119, 116);
-            Par_Button.Margin = new Padding(1, 1, 1, 1);
+            Par_Button.Margin = new Padding(1);
             Par_Button.Name = "Par_Button";
             Par_Button.Size = new Size(54, 48);
             Par_Button.TabIndex = 17;
@@ -351,7 +351,7 @@
             AC_Button.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             AC_Button.ForeColor = Color.White;
             AC_Button.Location = new Point(7, 116);
-            AC_Button.Margin = new Padding(1, 1, 1, 1);
+            AC_Button.Margin = new Padding(1);
             AC_Button.Name = "AC_Button";
             AC_Button.Size = new Size(54, 48);
             AC_Button.TabIndex = 16;
@@ -364,7 +364,7 @@
             Ingreso.BackColor = Color.FromArgb(20, 20, 20);
             Ingreso.BorderStyle = BorderStyle.None;
             Ingreso.Dock = DockStyle.Top;
-            Ingreso.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            Ingreso.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             Ingreso.ForeColor = Color.White;
             Ingreso.Location = new Point(0, 0);
             Ingreso.MaxLength = 20;
@@ -384,7 +384,7 @@
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
             button1.Location = new Point(63, 116);
-            button1.Margin = new Padding(1, 1, 1, 1);
+            button1.Margin = new Padding(1);
             button1.Name = "button1";
             button1.Size = new Size(54, 48);
             button1.TabIndex = 21;
@@ -397,7 +397,7 @@
             OutPut.BackColor = Color.FromArgb(20, 20, 20);
             OutPut.BorderStyle = BorderStyle.None;
             OutPut.Dock = DockStyle.Top;
-            OutPut.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            OutPut.Font = new Font("Calibri Light", 26.25F, FontStyle.Italic, GraphicsUnit.Point);
             OutPut.ForeColor = Color.White;
             OutPut.Location = new Point(0, 56);
             OutPut.MaxLength = 20;
