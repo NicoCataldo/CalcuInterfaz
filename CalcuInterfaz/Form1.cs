@@ -62,6 +62,7 @@ namespace CalcuInterfaz
 
         private static string leerInputValido()
         {
+            //Eliminar punto decimal al final del numero si existe ejemplo 4. -> 4
             entrada = Regex.Replace(entrada, @"(\d+)\.$", "$1");
 
             if (string.IsNullOrEmpty(entrada))
@@ -69,22 +70,48 @@ namespace CalcuInterfaz
                 return "0";
             }
 
-            // Reconocer y convertir números negativos y valida si el - esta precedido por otro operador
-            entrada = Regex.Replace(entrada, @"(?<=[^\d+\-*/(])-(?=\d)", "0-");
-
-
-            // Validaciones
+            //Verifica si empieza con un operador o termina
             if (entrada.StartsWith("*") || entrada.StartsWith("/") || entrada.EndsWith("+") || entrada.EndsWith("-") ||
                 entrada.EndsWith("*") || entrada.EndsWith("/"))
             {
                 return "Syntax error";
             }
 
+            //Eliminar + inicial
+            if (entrada.StartsWith("+"))
+            {
+                entrada = entrada.Substring(1);
+            }
+
+            // Validaciones
+            for (int i = 0; i < entrada.Length; i++)
+            {
+                // Operadores consecutivos. Ej: +/
+                if ("+-*/".Contains(entrada[i]) && "+-*/)".Contains(entrada[i + 1]))
+                {
+                    return "Syntax error";
+                }
+            }
+
+            // Reconocer y convertir números negativos y valida si el - esta precedido por otro operador
+            entrada = Regex.Replace(entrada, @"(?<!\d)-", "0-"); 
+            //entrada = Regex.Replace(entrada, @"(?<=[^\d+\-*/])-(?=\d)", "0-"); 
+            
+
+
+            
+
+            
+
+            //coloca el multiplicador entre dos parentesis
+            entrada = entrada.Replace(")(", ")*(");
+
+
             // Procesar paréntesis
             int openParentheses = entrada.Count(c => c == '(');
             int closeParentheses = entrada.Count(c => c == ')');
 
-            if (openParentheses != closeParentheses)
+            if (openParentheses < closeParentheses)
             {
                 return "Syntax error";
             }
@@ -137,7 +164,6 @@ namespace CalcuInterfaz
                         {
                             return "Syntax error"; // Dos operadores juntos
                         }
-
                         while (operadores.Count > 0 && Precedencia(operadores.Peek()) >= Precedencia(c))
                         {
                             decimal b = numeros.Pop();
@@ -211,7 +237,7 @@ namespace CalcuInterfaz
             }
             catch (Exception)
             {
-                return "Math error";
+                return "Syntax error";
             }
         }
 
@@ -243,7 +269,7 @@ namespace CalcuInterfaz
                 case '/':
                     if (b == 0)
                     {
-                        return 0;
+                        throw new DivideByZeroException("Math error");
                     }
                     return a / b;
                 default:
